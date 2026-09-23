@@ -1,0 +1,201 @@
+/* =========================
+   MINIMAL LOGIN PAGE
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf5;
+    color: #333;
+}
+
+
+/* LOGIN CONTAINER */
+
+.login-container {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* LOGIN BOX */
+
+.login-box {
+    width: 360px;
+
+    background: #ffffff;
+
+    padding: 35px;
+
+    border: 1px solid #eee;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+    text-align: center;
+}
+
+
+/* LOGO */
+
+.login-box .logo {
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #8b0000;
+
+    margin-bottom: 25px;
+}
+
+
+/* HEADING */
+
+.login-box h1 {
+    font-size: 28px;
+
+    color: #333;
+
+    margin-bottom: 8px;
+}
+
+.login-box > p {
+    color: #777;
+
+    font-size: 14px;
+
+    margin-bottom: 25px;
+}
+
+
+/* INPUT */
+
+.input-box {
+    text-align: left;
+
+    margin-bottom: 18px;
+}
+
+.input-box label {
+    display: block;
+
+    font-size: 14px;
+
+    margin-bottom: 7px;
+
+    color: #444;
+}
+
+.input-box input {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 7px;
+
+    outline: none;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.input-box input:focus {
+    border-color: #8b0000;
+}
+
+
+/* LOGIN OPTIONS */
+
+.login-options {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-size: 13px;
+
+    margin-bottom: 22px;
+}
+
+.login-options a {
+    color: #8b0000;
+
+    text-decoration: none;
+}
+
+
+/* LOGIN BUTTON */
+
+.login-btn {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background: #8b0000;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.login-btn:hover {
+    background: #700000;
+}
+
+
+/* SIGN UP */
+
+.signup-text {
+    margin-top: 22px;
+
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #8b0000;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+/* HOME */
+
+.home-link {
+    display: inline-block;
+
+    margin-top: 18px;
+
+    font-size: 14px;
+
+    color: #777;
+
+    text-decoration: none;
+}
+
+.home-link:hover {
+    color: #8b0000;
+}
